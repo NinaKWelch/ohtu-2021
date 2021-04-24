@@ -46,6 +46,29 @@ git tag -a v1.2 9fceb02
 git tag
 ```
 
+6. Pushaa tägi tai tägit repoon
+
+```
+git push origin v1.5
+git push origin --tags
+```
+
+7. Tägin poisto
+
+Paikallisesti:
+
+```
+git tag -d v1.4-lw
+```
+
+Reposta:
+
+```
+git push origin --delete <tagname>
+
+git push origin :refs/tags/v1.4-lw
+```
+
 ## Linkkejä
 
 - [Git Basics - Tagging](http://git-scm.com/book/en/v2/Git-Basics-Tagging)
