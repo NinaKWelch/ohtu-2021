@@ -69,6 +69,15 @@ git push origin --delete <tagname>
 git push origin :refs/tags/v1.4-lw
 ```
 
+8. Palaa aikaisempaan tägiin
+
+```
+git checkout v2.0.0
+```
+
+
+
+
 ## Linkkejä
 
 - [Git Basics - Tagging](http://git-scm.com/book/en/v2/Git-Basics-Tagging)
