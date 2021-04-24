@@ -7,25 +7,25 @@
 ```
 git tag
 git tag -l
-git tag -l "v1.8.5*"
+git tag -l "tagi1"
 ```
 
 2. Luo annotated-tägi
 
 ```
-git tag -a v1.4 -m "my version 1.4"
+git tag -a tagi1 -m "my tagi1"
 ```
 
 3. Katso tägin tiedot
 
 ```
-git show v1.4
+git show tagi1
 ```
 
 4. Luo lightweight-tägi
 
 ```
-git tag v1.4-lw
+git tag tagi2
 ```
 
 5. Luo tägi jälkeenpäin
@@ -42,14 +42,14 @@ git log --pretty=oneline
 Luo tägi “Update rakefile” -committiin
 
 ```
-git tag -a v1.2 9fceb02
+git tag -a tagi3 9fceb02
 git tag
 ```
 
 6. Pushaa tägi tai tägit repoon
 
 ```
-git push origin v1.5
+git push origin tagi3
 git push origin --tags
 ```
 
